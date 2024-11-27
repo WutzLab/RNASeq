@@ -1,0 +1,366 @@
+fastqc 20190328.A-H23_DOX_R1.fastq 
+fastqc 20190328.A-H23_R1.fastq
+fastqc 20190328.A-HATX3_DOX_R1.fastq
+fastqc 20190328.A-HATX3_R1.fastq
+fastqc 20190328.A-HATX8_DOX_R1.fastq
+fastqc 20190328.A-HATX8_R1.fastq
+fastqc 20190328.A-HE46_DOX_R1.fastq
+fastqc 20190328.A-HE46_R1.fastq
+fastqc 20190328.A-U1_36_DOX_R1.fastq
+fastqc 20190328.A-U1_36_R1.fastq
+fastqc 20190328.A-U9_DOX_R1.fastq
+fastqc 20190328.A-U9_R1.fastq
+fastqc 20190328.A-U12_8_DOX_R1.fastq
+fastqc 20190328.A-U12_8_R1.fastq
+fastqc 20190328.A-U12_10_DOX_R1.fastq
+fastqc 20190328.A-U12_10_R1.fastq
+fastqc 20190328.A-U14_DOX_R1.fastq
+fastqc 20190328.A-U14_R1.fastq
+
+   ------------------ Trimmomatic:
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-H23_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/H23_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 75906120 Surviving: 75761321 (99.81%) Dropped: 144799 (0.19%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-H23_R1.fastq /media/BACKUP_DISK/Asun_FastQ/H23.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 71734303 Surviving: 71611736 (99.83%) Dropped: 122567 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-HATX3_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/HATX3_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 66493305 Surviving: 66310640 (99.73%) Dropped: 182665 (0.27%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-HATX3_R1.fastq /media/BACKUP_DISK/Asun_FastQ/HATX3.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 75710590 Surviving: 75564366 (99.81%) Dropped: 146224 (0.19%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-HATX8_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/HATX8_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 73616000 Surviving: 73495426 (99.84%) Dropped: 120574 (0.16%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-HATX8_R1.fastq /media/BACKUP_DISK/Asun_FastQ/HATX8.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 70796381 Surviving: 70672246 (99.82%) Dropped: 124135 (0.18%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-HE46_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/HE46_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 77227327 Surviving: 77097410 (99.83%) Dropped: 129917 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-HE46_R1.fastq /media/BACKUP_DISK/Asun_FastQ/HE46.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 71145808 Surviving: 71023895 (99.83%) Dropped: 121913 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U1_36_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U1_36_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 74403824 Surviving: 74276593 (99.83%) Dropped: 127231 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U1_36_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U1_36.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 73197824 Surviving: 73076094 (99.83%) Dropped: 121730 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U9_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U9_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 76505236 Surviving: 76372247 (99.83%) Dropped: 132989 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U9_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U9.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 72911739 Surviving: 72781505 (99.82%) Dropped: 130234 (0.18%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U12_8_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U12_8_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 70375420 Surviving: 70258301 (99.83%) Dropped: 117119 (0.17%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U12_8_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U12_8.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 69111433 Surviving: 68936127 (99.75%) Dropped: 175306 (0.25%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U12_10_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U12_10_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 73249813 Surviving: 73107332 (99.81%) Dropped: 142481 (0.19%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U12_10_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U12_10.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 73804479 Surviving: 73641690 (99.78%) Dropped: 162789 (0.22%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U14_DOX_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U14_DOX.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 73804479 Surviving: 73641690 (99.78%) Dropped: 162789 (0.22%)
+TrimmomaticSE: Completed successfully
+
+java -jar trimmomatic-0.38.jar SE -phred33 /media/BACKUP_DISK/Asun_FastQ/20190328.A-U14_R1.fastq /media/BACKUP_DISK/Asun_FastQ/U14.fastq ILLUMINACLIP:TruSeq3-SE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+-
+Automatically using 4 threads
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Reads: 64902336 Surviving: 64801322 (99.84%) Dropped: 101014 (0.16%)
+TrimmomaticSE: Completed successfully
+
+   ------------------ Hisat2 Align Stranded "R"
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/H23_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/H23_DOX_aligned_R.sa
+-
+75761321 reads; of these:
+  75761321 (100.00%) were unpaired; of these:
+    2453675 (3.24%) aligned 0 times
+    65080085 (85.90%) aligned exactly 1 time
+    8227561 (10.86%) aligned >1 times
+96.76% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/H23.fastq -S /media/BACKUP_DISK/Asun_FastQ/H23_aligned_R.sa
+-
+71611736 reads; of these:
+  71611736 (100.00%) were unpaired; of these:
+    2569057 (3.59%) aligned 0 times
+    61423502 (85.77%) aligned exactly 1 time
+    7619177 (10.64%) aligned >1 times
+96.41% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/HATX3_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/HATX3_DOX_aligned_R.sa
+-
+66310640 reads; of these:
+  66310640 (100.00%) were unpaired; of these:
+    1991609 (3.00%) aligned 0 times
+    57264803 (86.36%) aligned exactly 1 time
+    7054228 (10.64%) aligned >1 times
+97.00% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/HATX3.fastq -S /media/BACKUP_DISK/Asun_FastQ/HATX3_aligned_R.sa
+-
+75564366 reads; of these:
+  75564366 (100.00%) were unpaired; of these:
+    2684015 (3.55%) aligned 0 times
+    64755332 (85.70%) aligned exactly 1 time
+    8125019 (10.75%) aligned >1 times
+96.45% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/HATX8_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/HATX8_DOX_aligned_R.sa
+-
+73495426 reads; of these:
+  73495426 (100.00%) were unpaired; of these:
+    1781768 (2.42%) aligned 0 times
+    63597423 (86.53%) aligned exactly 1 time
+    8116235 (11.04%) aligned >1 times
+97.58% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/HATX8.fastq -S /media/BACKUP_DISK/Asun_FastQ/HATX8_aligned_R.sa
+-
+70672246 reads; of these:
+  70672246 (100.00%) were unpaired; of these:
+    1869146 (2.64%) aligned 0 times
+    61080872 (86.43%) aligned exactly 1 time
+    7722228 (10.93%) aligned >1 times
+97.36% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/HE46_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/HE46_DOX_aligned_R.sa
+-
+77097410 reads; of these:
+  77097410 (100.00%) were unpaired; of these:
+    2184294 (2.83%) aligned 0 times
+    66376728 (86.09%) aligned exactly 1 time
+    8536388 (11.07%) aligned >1 times
+97.17% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/HE46.fastq -S /media/BACKUP_DISK/Asun_FastQ/HE46_aligned_R.sa
+-
+71023895 reads; of these:
+  71023895 (100.00%) were unpaired; of these:
+    2170142 (3.06%) aligned 0 times
+    60958360 (85.83%) aligned exactly 1 time
+    7895393 (11.12%) aligned >1 times
+96.94% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U1_36_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/U1_36_DOX_aligned_R.sa
+-
+74276593 reads; of these:
+  74276593 (100.00%) were unpaired; of these:
+    1501246 (2.02%) aligned 0 times
+    64478217 (86.81%) aligned exactly 1 time
+    8297130 (11.17%) aligned >1 times
+97.98% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U1_36.fastq -S /media/BACKUP_DISK/Asun_FastQ/U1_36_aligned_R.sa
+-
+73076094 reads; of these:
+  73076094 (100.00%) were unpaired; of these:
+    1598772 (2.19%) aligned 0 times
+    63177730 (86.45%) aligned exactly 1 time
+    8299592 (11.36%) aligned >1 times
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U9_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/U9_DOX_aligned_R.sa
+-
+76372247 reads; of these:
+  76372247 (100.00%) were unpaired; of these:
+    2349414 (3.08%) aligned 0 times
+    65858184 (86.23%) aligned exactly 1 time
+    8164649 (10.69%) aligned >1 times
+96.92% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U9.fastq -S /media/BACKUP_DISK/Asun_FastQ/U9_aligned_R.sa
+72781505 reads; of these:
+  72781505 (100.00%) were unpaired; of these:
+    2427478 (3.34%) aligned 0 times
+    62472514 (85.84%) aligned exactly 1 time
+    7881513 (10.83%) aligned >1 times
+96.66% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U12_8_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/U12_8_DOX_aligned_R.sa
+-
+70258301 reads; of these:
+  70258301 (100.00%) were unpaired; of these:
+    1438046 (2.05%) aligned 0 times
+    60908415 (86.69%) aligned exactly 1 time
+    7911840 (11.26%) aligned >1 times
+97.95% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U12_8.fastq -S /media/BACKUP_DISK/Asun_FastQ/U12_8_aligned_R.sa
+-
+68936127 reads; of these:
+  68936127 (100.00%) were unpaired; of these:
+    1693431 (2.46%) aligned 0 times
+    59703566 (86.61%) aligned exactly 1 time
+    7539130 (10.94%) aligned >1 times
+97.54% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U12_10_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/U12_10_DOX_aligned_R.sa
+-
+73107332 reads; of these:
+  73107332 (100.00%) were unpaired; of these:
+    1386976 (1.90%) aligned 0 times
+    63555600 (86.93%) aligned exactly 1 time
+    8164756 (11.17%) aligned >1 times
+98.10% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U12_10.fastq -S /media/BACKUP_DISK/Asun_FastQ/U12_10_aligned_R.sa
+-
+73641690 reads; of these:
+  73641690 (100.00%) were unpaired; of these:
+    1647637 (2.24%) aligned 0 times
+    63670790 (86.46%) aligned exactly 1 time
+    8323263 (11.30%) aligned >1 times
+97.76% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U14_DOX.fastq -S /media/BACKUP_DISK/Asun_FastQ/U14_DOX_aligned_R.sa
+-
+72466068 reads; of these:
+  72466068 (100.00%) were unpaired; of these:
+    1637548 (2.26%) aligned 0 times
+    63318067 (87.38%) aligned exactly 1 time
+    7510453 (10.36%) aligned >1 times
+97.74% overall alignment rate
+
+./hisat2 -q --threads 8 --rna-strandness R -x mm10/genome -U /media/BACKUP_DISK/Asun_FastQ/U14.fastq -S /media/BACKUP_DISK/Asun_FastQ/U14_aligned_R.sa
+-
+64801322 reads; of these:
+  64801322 (100.00%) were unpaired; of these:
+    1524819 (2.35%) aligned 0 times
+    56407198 (87.05%) aligned exactly 1 time
+    6869305 (10.60%) aligned >1 times
+97.65% overall alignment rate
+
+   --------------- htseq-count
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 H23_aligned_R.sa genes.gtf > H23_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 H23_DOX_aligned_R.sa genes.gtf > H23_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 HATX3_aligned_R.sa genes.gtf > HATX3_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 HATX3_DOX_aligned_R.sa genes.gtf > HATX3_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 HATX8_aligned_R.sa genes.gtf > HATX8_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 HATX8_DOX_aligned_R.sa genes.gtf > HATX8_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 HE46_aligned_R.sa genes.gtf > HE46_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 HE46_DOX_aligned_R.sa genes.gtf > HE46_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U12_10_aligned_R.sa genes.gtf > U12_10_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U12_10_DOX_aligned_R.sa genes.gtf > U12_10_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U12_8_aligned_R.sa genes.gtf > U12_8_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U12_8_DOX_aligned_R.sa genes.gtf > U12_8_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U1_36_aligned_R.sa genes.gtf > U1_36_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U1_36_DOX_aligned_R.sa genes.gtf > U1_36_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U14_aligned_R.sa genes.gtf > U14_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U14_DOX_aligned_R.sa genes.gtf > U14_DOX_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U9_aligned_R.sa genes.gtf > U9_counts
+htseq-count --format=sam --mode=union --stranded=reverse --minaqual=2 U9_DOX_aligned_R.sa genes.gtf > U9_DOX_counts
+
+   --------------- quick results overview
+grep -Ewi 'Xist|Gapdh|Hira|Ubn1|Ubn2' *_counts
+
